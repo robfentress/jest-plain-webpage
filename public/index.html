@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Example</title>
+</head>
+<body>
+  <span id="greeting"></span>
+  <script src="greeter.js"></script>
+  <script>
+    document.getElementById('greeting').innerText = getGreetingText(new Date().getHours());
+  </script>
+</body>
+</html>
